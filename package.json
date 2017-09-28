@@ -1,0 +1,36 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "A simple project help me learn how to use webpack",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./dist/*",
+    "dev": "npm run clean && webpack -d",
+    "prod": "npm run clean && NODE_ENV=production webpack -p",
+    "server": "webpack-dev-server"
+  },
+  "author": "John Lucas Tyler",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "bootstrap-sass": "^3.3.7",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "handlebars": "^4.0.10",
+    "handlebars-loader": "^1.6.0",
+    "html-webpack-plugin": "^2.30.1",
+    "imports-loader": "^0.7.1",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.3",
+    "resolve-url-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "dependencies": {}
+}
