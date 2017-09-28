@@ -1,7 +1,7 @@
 {
-  "name": "webpack-starter",
+  "name": "project-template",
   "version": "1.0.0",
-  "description": "A simple project help me learn how to use webpack",
+  "description": "A simple project template for starting webapps",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf ./dist/*",
@@ -10,7 +10,7 @@
     "server": "webpack-dev-server"
   },
   "author": "John Lucas Tyler",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
